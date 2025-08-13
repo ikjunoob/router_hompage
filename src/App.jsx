@@ -5,7 +5,7 @@ import Nav from './components/Nav'
 import About from './pages/About'
 import Board from './pages/Board'
 import Home from './pages/Home'
-import Notfound from './pages/Notfound'
+import Notfound from './pages/NotFound'
 import BoardDetail from './pages/BoardDetail'
 import Footer from './components/Footer'
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path='/board/:id' element={<BoardDetail />} />
         <Route path='*' element={<Notfound />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
