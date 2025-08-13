@@ -44,7 +44,6 @@ h1 {
 
 .list li a {
     display: block;
-    /* transition: all .2s; */
     height: 100%;
 }
 
@@ -55,4 +54,24 @@ h1 {
 
 .list li:hover a {
     color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
 }

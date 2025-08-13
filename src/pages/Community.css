@@ -1,0 +1,42 @@
+.Community .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Community .list li {
+    width: 200px;
+    height: 150px;
+    background-color: #eee;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.Community .num {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.Community .dsc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.Community .list li:hover {
+    background-color: #90ee90;
+}
+
+.Community .list li:hover .dsc {
+    color: #000;
+}
